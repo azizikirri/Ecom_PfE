@@ -64,7 +64,7 @@ const Contact = ({ onClose }) => {
           </div>
           <div className="mt-5 flex gap-4">
             <FaEnvelope size={30} />
-            <span>yourEmail</span>
+            <span>yourEmail@gmail.com</span>
           </div>
           <br />
           <br />
