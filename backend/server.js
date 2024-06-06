@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 
 
-const atlasURI = 'mongodb+srv://azizikirri30:TFltY6rDtais8YG0@clusterpfe-ecom.vtwpfqs.mongodb.net/';
+const atlasURI = 'mongodb+srv://yourname:password0@clusteryourcluster.vtwpfqs.mongodb.net/';
 
 mongoose.connect(atlasURI, {
     useNewUrlParser: true,
@@ -25,7 +25,7 @@ mongoose.connect(atlasURI, {
 });
 
 
-const localURI = 'mongodb://127.0.0.1:27017/pfe_ecom';
+const localURI = 'mongodb://yourlocalhost/yourdbname';
 
 const localConnection = mongoose.createConnection(localURI, {
     useNewUrlParser: true,
