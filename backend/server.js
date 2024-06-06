@@ -14,7 +14,7 @@ const atlasURI = 'mongodb+srv://yourname:password0@clusteryourcluster.vtwpfqs.mo
 mongoose.connect(atlasURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    dbName: 'pfe_ecom' 
+    dbName: 'youdbname' 
 })
 .then(() => {
     console.log('Connected to MongoDB Atlas');
