@@ -31,7 +31,7 @@ const Contact = ({ onClose }) => {
       message: message
     };
 
-    emailjs.send('service_re2y7ts', 'template_1m5mybj', templateParams, 'VSqcin-p5EoLX2ZCS')
+    emailjs.send('your_service_info', 'your_template_info', templateParams, '')
       .then((response) => {
         toast.success("Message Envoyé", {
           position: "top-center",
@@ -56,15 +56,15 @@ const Contact = ({ onClose }) => {
           <p className="mt-8">Contactez-nous aux numéros suivants :</p>
           <div className="mt-5 flex gap-4">
             <FaPhone size={30} />
-            <span>05 33 33 45 66</span>
+            <span>05 11 11 11 11</span>
           </div>
           <div className="mt-5 flex gap-4">
             <FiSmartphone size={30} />
-            <span>06 88 22 45 23</span>
+            <span>06 00 00 00 00</span>
           </div>
           <div className="mt-5 flex gap-4">
             <FaEnvelope size={30} />
-            <span>SoukFashion@gmail.com</span>
+            <span>yourEmail</span>
           </div>
           <br />
           <br />
