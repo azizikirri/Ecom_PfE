@@ -14,7 +14,7 @@ const atlasURI = 'mongodb+srv://yourname:password@clusteryourcluster.vtwpfqs.mon
 mongoose.connect(atlasURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    dbName: 'pfe_ecom' 
+    dbName: 'yourdbname' 
 })
 .then(() => {
     console.log('Connected to MongoDB Atlas');
@@ -25,7 +25,7 @@ mongoose.connect(atlasURI, {
 });
 
 
-const localURI = 'mongodb://127.0.0.1:27017/pfe_ecom';
+const localURI = 'mongodb://localhost/yourdbname';
 
 const localConnection = mongoose.createConnection(localURI, {
     useNewUrlParser: true,
