@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 
 
-const atlasURI = 'mongodb+srv://azizikirri30:TFltY6rDtais8YG0@clusterpfe-ecom.vtwpfqs.mongodb.net/';
+const atlasURI = 'mongodb+srv://yourname:password@clusterpfe-ecom.vtwpfqs.mongodb.net/';
 
 mongoose.connect(atlasURI, {
     useNewUrlParser: true,
