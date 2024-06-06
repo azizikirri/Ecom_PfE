@@ -8,12 +8,12 @@ const app = express();
 
 app.use(cors());
 
-mongoose.connect('mongodb://127.0.0.1:27017/pfe_ecom', {
+mongoose.connect('mongodb://yourlocalhost/dbname', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
 .then(() => {
-    console.log('Connected to pfe_ecom database');
+    console.log('Connected to your dbname database');
 })
 .catch((error) => {
     console.error('Connection error:', error);
